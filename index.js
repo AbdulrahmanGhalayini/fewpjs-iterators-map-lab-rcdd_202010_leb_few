@@ -12,7 +12,7 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  let 
+  let tutorials=
   
           [
           "What Does The This Keyword Mean?",
@@ -26,7 +26,5 @@ const titleCased = () => {
           "What Is The Difference Between Event Capturing And Bubbling?",
           "What Is JSONP?"
       ]
-  return tutorials.map(x=> 
-  x.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' '))
-  
+  return tutorials;
 }
